@@ -1,26 +1,33 @@
-# Angular Blog
+# Musikas Blog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.2.
+Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-cli) versão 19.2.2. O Musikas é uma aplicação web desenvolvida em Angular que permite aos usuários explorar e gerenciar uma coleção de álbuns musicais. A interface é projetada para ser intuitiva e responsiva, proporcionando uma experiência agradável ao usuário.
 
-## Development server
+## Funcionalidades
+- Exploração de Álbuns: Os usuários podem visualizar uma coleção de álbuns musicais com capas e detalhes.
 
-To start a local development server, run:
+- Layout Responsivo: A aplicação é totalmente responsiva, garantindo uma boa experiência em dispositivos móveis e desktops.
+
+- Componentes Reutilizáveis: A aplicação utiliza componentes reutilizáveis para garantir consistência e facilidade de manutenção.
+
+## Servidor de desenvolvimento
+
+Para iniciar o server, rode no terminal:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Uma vez que estiver rodando, abra seu navegador no endereço `http://localhost:4200/`. A aplicação irá atualizar automaticamente para cada atualização feita em um arquivo.
 
-## Code scaffolding
+## Gerar componenete
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Para gerar um novo componente, rode no seu terminal:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Para uma lista completa das esquemáticas disponíveis (como por exemplo `components`, `directives`, or `pipes`), rode no terminal:
 
 ```bash
 ng generate --help
@@ -28,10 +35,10 @@ ng generate --help
 
 ## Building
 
-To build the project run:
+Para buildar o projeto para produção, rode no terminal:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Ele irá compilar e armazenar o build do projeto na pasta `dist/`. Por padrão, a produção de um build otimiza sua aplicação para ter performance e velocidade.
