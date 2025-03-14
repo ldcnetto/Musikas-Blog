@@ -1,0 +1,15 @@
+<div class="main-card">
+  <a [routerLink]="['/content', id]" class="card-image-link">
+    <img class="card-image-img" ngSrc="{{ capa }}" width="200" height="200" loading="lazy" alt="{{ alt }}" />
+  </a>
+
+  <div class="main-card-content">
+      <a [routerLink]="['/content', id]" class="card-link">
+        <h4 class="card-title">{{ title }}</h4>
+      </a>
+
+      <a [routerLink]="['/content', id]" class="card-link">
+        <p class="card-band">{{ banda }}</p>
+      </a>
+  </div>
+</div>

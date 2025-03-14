@@ -1,0 +1,37 @@
+.main-card {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 320px;
+  gap: 10px;
+}
+
+.main-card-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.card-image-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image-img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.card-image-link, .card-link {
+  color: #000;
+  text-decoration: none;
+}
