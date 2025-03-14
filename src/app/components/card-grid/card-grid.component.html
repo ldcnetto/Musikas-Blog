@@ -1,0 +1,9 @@
+<div class="main-card-grid">
+  <app-card *ngFor="let card of cardData"
+            [id]="card.id"
+            [title]="card.title"
+            [banda]="card.banda"
+            [capa]="card.capa"
+            [alt]="card.alt">
+  </app-card>
+</div>
