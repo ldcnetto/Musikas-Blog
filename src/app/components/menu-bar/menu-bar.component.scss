@@ -45,16 +45,18 @@
   color: #EAEAEA;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 700px) {
   .menu-bar-principal {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    padding: 20px 0 0 0;
+    height: 90px;
     gap: 10px;
+    padding: 40px 20px;
   }
+}
 
+@media (max-width: 560px) {
   .menu-bar-title {
     max-width: 100%;
     gap: 4px;
